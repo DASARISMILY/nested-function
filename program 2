@@ -1,0 +1,8 @@
+def mul_by(n):
+    def inner(x): #call inner fucnction x=5
+        return x*n   #x*2   x*3
+    return inner
+times_2=mul_by(2) #n=2,
+times_3=mul_by(3) #n=3,
+print(times_2(5))
+print(times_3(10))
