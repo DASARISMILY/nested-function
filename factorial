@@ -5,9 +5,11 @@ def factorial(n):
     for i in range (1,n+1):
         fact*=i
     return fact
+
+# starting of the program 
 num=int(input("enter the number"))
 if num<0:
     print("cannot derive factorial for negative numbers")
 else:
-    factorial(num)
+    factorial(num)   # return to function
     print(f" factorial of {num} is ",fact)
