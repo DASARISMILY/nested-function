@@ -1,0 +1,5 @@
+''' keyword args **kwars'''
+def info(**kwargs):
+    for key,value in kwargs.items():
+        print(f"{key}:{value}")
+info(name='smily',age=20,cgpa=8.6)
